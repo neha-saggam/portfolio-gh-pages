@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio-gh-pages/static/css/main.52d52f80.chunk.css",
-    "main.js": "/portfolio-gh-pages/static/js/main.868c8fd4.chunk.js",
-    "main.js.map": "/portfolio-gh-pages/static/js/main.868c8fd4.chunk.js.map",
-    "runtime-main.js": "/portfolio-gh-pages/static/js/runtime-main.6ff92d7d.js",
-    "runtime-main.js.map": "/portfolio-gh-pages/static/js/runtime-main.6ff92d7d.js.map",
-    "static/js/2.481012f3.chunk.js": "/portfolio-gh-pages/static/js/2.481012f3.chunk.js",
-    "static/js/2.481012f3.chunk.js.map": "/portfolio-gh-pages/static/js/2.481012f3.chunk.js.map",
-    "static/js/3.e83921c3.chunk.js": "/portfolio-gh-pages/static/js/3.e83921c3.chunk.js",
-    "static/js/3.e83921c3.chunk.js.map": "/portfolio-gh-pages/static/js/3.e83921c3.chunk.js.map",
+    "main.js": "/portfolio-gh-pages/static/js/main.e16d6334.chunk.js",
+    "main.js.map": "/portfolio-gh-pages/static/js/main.e16d6334.chunk.js.map",
+    "runtime-main.js": "/portfolio-gh-pages/static/js/runtime-main.0675a905.js",
+    "runtime-main.js.map": "/portfolio-gh-pages/static/js/runtime-main.0675a905.js.map",
+    "static/css/2.15a7a700.chunk.css": "/portfolio-gh-pages/static/css/2.15a7a700.chunk.css",
+    "static/js/2.b0038d10.chunk.js": "/portfolio-gh-pages/static/js/2.b0038d10.chunk.js",
+    "static/js/2.b0038d10.chunk.js.map": "/portfolio-gh-pages/static/js/2.b0038d10.chunk.js.map",
+    "static/js/3.1115b7e4.chunk.js": "/portfolio-gh-pages/static/js/3.1115b7e4.chunk.js",
+    "static/js/3.1115b7e4.chunk.js.map": "/portfolio-gh-pages/static/js/3.1115b7e4.chunk.js.map",
     "index.html": "/portfolio-gh-pages/index.html",
+    "static/css/2.15a7a700.chunk.css.map": "/portfolio-gh-pages/static/css/2.15a7a700.chunk.css.map",
     "static/css/main.52d52f80.chunk.css.map": "/portfolio-gh-pages/static/css/main.52d52f80.chunk.css.map",
-    "static/js/2.481012f3.chunk.js.LICENSE.txt": "/portfolio-gh-pages/static/js/2.481012f3.chunk.js.LICENSE.txt",
+    "static/js/2.b0038d10.chunk.js.LICENSE.txt": "/portfolio-gh-pages/static/js/2.b0038d10.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/portfolio-gh-pages/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ff92d7d.js",
-    "static/js/2.481012f3.chunk.js",
+    "static/js/runtime-main.0675a905.js",
+    "static/css/2.15a7a700.chunk.css",
+    "static/js/2.b0038d10.chunk.js",
     "static/css/main.52d52f80.chunk.css",
-    "static/js/main.868c8fd4.chunk.js"
+    "static/js/main.e16d6334.chunk.js"
   ]
 }
