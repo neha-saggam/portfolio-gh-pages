@@ -1,38 +1,121 @@
 .App {
+  background-color: rgb(46, 45, 43);
+  color: white;
+  padding-bottom: 1.5em;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: hsla(0,0%,100%,.8);
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 50vmin;
+}
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9997;
+  transition: all .5s;
+  padding: 15px;
+  overflow-y: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar-container .sidebar {
+  list-style: none;
+  margin-block-start: 15em;
+  padding-inline-start: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.sidebar-container .sidebar li {
+  margin-bottom: 3em;
+}
+
+.sidebar-container .sidebar li a:hover {
+  background: #0cf0dc;
+}
+
+.sidebar-container .sidebar li a {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #45505b;
+  padding: 18px;
+  font-size: 15px;
+  border-radius: 50px;
+  background: #f2f3f5;
+  height: 56px;
+  width: 56px;
+  overflow: hidden;
+  transition: .3s;
 }
 
-.App-link {
-  color: #61dafb;
+.section {
+  padding-left: 250px;
+  align-items: center;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#home h1 {
+  font-size: 42px;
+}
+
+#about a {
+  color: #0cf0dc;
+}
+.social-icons-container a {
+  margin-right: 2%;
+  color: #0cf0dc;
+}
+
+#home p {
+  font-size: 20px;
+  margin-bottom: 0.5em;
+}
+#skills {
+  padding: 50px 15px;
+}
+#skills ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+  text-align: center;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: hsla(0,0%,100%,.8);
+  background: #343a40;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+}
+
+#skills h2 {
+  color: hsla(0,0%,100%,.8);
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-top: 0.5em;
+}
+
+.form-group label {
+  margin-bottom: 0.1em;
+}
+
+form .btn-primary {
+  margin-top: 0.5em;
+  background: #0cf0dc;
+  border-color: #0cf0dc;
+  color: rgb(46, 45, 43);
 }
