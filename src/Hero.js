@@ -2,6 +2,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faInstagram, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
+import profile from "./profile.jpeg";
 
 export const Hero = () => {
     return (
@@ -26,15 +27,16 @@ export const Hero = () => {
                     <a href="https://github.com/neha-saggam" target="_blank">
                         <span><FontAwesomeIcon icon={faGithub} size="lg" /></span>
                     </a>
-                    {/*<a href="mailto:nehasaggam@gmail.com">*/}
-                    {/*    <span><FontAwesomeIcon icon={faEnvelope} size="lg" /></span>*/}
-                    {/*</a>*/}
+                    <a href="mailto:nehasaggam@gmail.com">
+                        <span><FontAwesomeIcon icon={faEnvelope} size="lg" /></span>
+                    </a>
                     <a href="https://www.instagram.com/nehasaggam/">
                         <span><FontAwesomeIcon icon={faInstagram} size="lg" /></span>
                     </a>
                 </div>
             </div>
             <div className="col-6">
+                <img src={profile} className="App-logo" alt="logo" />
             </div>
         </section>
     )

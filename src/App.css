@@ -57,9 +57,10 @@
 }
 
 .section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   padding-left: 250px;
   align-items: center;
-  height: 100vh;
 }
 
 #home h1 {

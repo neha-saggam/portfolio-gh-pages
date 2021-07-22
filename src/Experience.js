@@ -13,8 +13,7 @@ export const Experience = () => {
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4 className="timeline-title">Technogise Pvt. Ltd.</h4>
-                                    <p><small className="text-muted"><i className="glyphicon glyphicon-time"></i> 11
-                                        hours ago via Twitter</small></p>
+                                    <p><small className="text-muted"><i className="glyphicon glyphicon-time"></i> Oct 2018 - Present </small></p>
                                 </div>
                                 <div className="timeline-body">
                                     <p>I have ben working here as a Applications Developer.</p>
@@ -27,6 +26,8 @@ export const Experience = () => {
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4 className="timeline-title">Hashmap Pvt Ltd.</h4>
+                                    <p><small className="text-muted"><i className="glyphicon glyphicon-time"></i> Mar 2018 - Sep 2018 </small></p>
+
                                 </div>
                                 <div className="timeline-body">
                                     <p> I worked here as a front end developer.</p>
@@ -39,6 +40,8 @@ export const Experience = () => {
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h4 className="timeline-title">GS Labs</h4>
+                                    <p><small className="text-muted"><i className="glyphicon glyphicon-time"></i> Jul 2015 - Mar 2018 </small></p>
+
                                 </div>
                                 <div className="timeline-body">
                                     <p>I have worked here as a Software Developer</p>
